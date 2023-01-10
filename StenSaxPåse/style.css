@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightslategray;
+  color: #fff;
+}
+header {
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+.score-board {
+  border: 3px solid white;
+  width: 300px;
+  margin: 40px auto;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+}
+.badge {
+  background: orange;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 10px 6px;
+}
+#user-label {
+  position: absolute;
+  /* top: 50%; */
+  left: -5%;
+  transform: translate(-10%, -50%);
+}
+#computer-label {
+  position: absolute;
+  /* top: 50%; */
+  right: -5%;
+  transform: translate(10%, -50%);
+}
+.result {
+  text-align: center;
+  font-size: 40px;
+}
+.choices {
+  text-align: center;
+}
+.choice {
+  display: inline-block;
+  border: 3px solid white;
+  padding: 15px;
+  margin: 25px;
+}
+.winningStyles {
+  border: 3px solid green;
+  background-color: lightgreen;
+}
+.losingStyles {
+  border: 3px solid red;
+  background-color: lightcoral;
+}
+.drawStyles {
+  border: 3px solid lightgray;
+  background-color: gray;
+}
